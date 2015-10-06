@@ -16,7 +16,7 @@ s.license          = { :type => 'LGPL', :text => <<-LICENSE
                         LICENSE
                      }
 s.author           = { "weixinapp" => "weixinapp@qq.com" }
-s.source           = { :git => "https://github.com/appwgh/WechatSDK.git", :tag => s.version }
+s.source           = { :git => "https://github.com/appwgh/WeChatSDK.git", :tag => s.version }
 
 s.platform     = :ios, '8.0'
 s.requires_arc = true
