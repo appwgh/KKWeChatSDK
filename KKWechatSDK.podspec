@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-s.name             = "WechatSDK"
+s.name             = "KKWeChatSDK"
 s.version          = "1.6"
 s.summary          = "WeChat iOS SDK."
 s.homepage         = "https://open.weixin.qq.com"
