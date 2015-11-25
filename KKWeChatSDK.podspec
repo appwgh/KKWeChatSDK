@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "KKWeChatSDK"
-s.version          = "1.6.1"
+s.version          = "1.6.2"
 s.summary          = "WeChat iOS SDK."
 s.homepage         = "https://open.weixin.qq.com"
 s.license          = { :type => 'LGPL', :text => <<-LICENSE
@@ -22,6 +22,7 @@ s.platform     = :ios, '7.0'
 s.requires_arc = true
 
 s.source_files = 'libWeChatSDK/*.{h,m}'
+s.public_header_files = 'libWeChatSDK/*.h'
 s.vendored_libraries  = 'libWeChatSDK/libWeChatSDK.a'
 
 s.frameworks = 'ImageIO', 'SystemConfiguration', 'Security', 'CoreTelephony'

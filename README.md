@@ -3,6 +3,11 @@
 ###微信SDK，和微信官方同步。
 
 ###重要!
+
+#### SDK1.6.2
+1. xCode7.1 构建的sdk包
+2. 请使用xCode7.1进行编译
+
 #### SDK1.6.1
 1. 修复armv7s下,bitcode可能编译不过
 2. 解决warning
